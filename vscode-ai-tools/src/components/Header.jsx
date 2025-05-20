@@ -90,7 +90,14 @@ const Header = () => {
       </List>
       <Divider sx={{ borderColor: '#333' }} />
       <Box sx={{ p: 2, display: 'flex', justifyContent: 'center' }}>
-        <IconButton sx={{ color: 'var(--accent)' }} aria-label="github">
+        <IconButton
+          sx={{ color: 'var(--accent)' }}
+          aria-label="github"
+          component="a"
+          href="https://github.com/benichmt1/vscode-ai"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <GitHubIcon />
         </IconButton>
       </Box>
@@ -197,6 +204,10 @@ const Header = () => {
               <IconButton
                 aria-label="github"
                 size="small"
+                component="a"
+                href="https://github.com/benichmt1/vscode-ai"
+                target="_blank"
+                rel="noopener noreferrer"
                 sx={{
                   color: '#fff',
                   ml: 1,
