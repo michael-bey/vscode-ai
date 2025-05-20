@@ -1,0 +1,80 @@
+body, #root, .App {
+  background: #181c24 !important;
+  color: #fff !important;
+  min-height: 100vh;
+}
+
+:root {
+  --accent: #00ffb3;
+}
+
+/* Remove any light backgrounds from containers */
+.MuiContainer-root, .MuiPaper-root, .MuiBox-root, .MuiCard-root {
+  background: #181c24 !important;
+  color: #fff !important;
+}
+
+/* Accent color for chips, links, etc. */
+.accent {
+  color: var(--accent) !important;
+}
+
+/* Remove box shadows from light theme */
+* {
+  box-shadow: none !important;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tool-card {
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tag-chip {
+  margin: 0.25rem;
+  border-radius: 4px;
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+}
+
+.filter-section {
+  margin-bottom: 1.5rem;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.tool-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
