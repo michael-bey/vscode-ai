@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   AppBar,
   Toolbar,
@@ -66,8 +67,8 @@ const Header = () => {
           <ListItem
             button
             key={item.name}
-            component="a"
-            href={item.path}
+            component={Link}
+            to={item.path}
             onClick={() => setDrawerOpen(false)}
             sx={{
               borderRadius: 2,
@@ -110,8 +111,8 @@ const Header = () => {
       <Container maxWidth="lg">
         <Toolbar disableGutters sx={{ height: 64 }}>
           <Box
-            component="a"
-            href="/"
+            component={Link}
+            to="/"
             sx={{
               display: 'flex',
               alignItems: 'center',
@@ -148,8 +149,8 @@ const Header = () => {
             {!isMobile && navItems.map((item) => (
               <Button
                 key={item.name}
-                component="a"
-                href={item.path}
+                component={Link}
+                to={item.path}
                 size="small"
                 startIcon={item.icon}
                 sx={{
