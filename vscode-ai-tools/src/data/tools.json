@@ -362,6 +362,33 @@
       "logoUrl": "/logos/pear.png",
       "type": "VSCode Fork",
       "isOpenSource": true
+    },
+    {
+      "id": 23,
+      "name": "DBCode",
+      "description": "Your Database. Inside VSCode. DBCode is a database management tool that allows you to manage your databases directly from Visual Studio Code. It supports various databases and provides features like query execution, schema browsing, and data visualization.",
+      "marketplaceLink": "https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode",
+      "homepageLink": "https://dbcode.io",
+      "demoLink": "https://dbcode.io",
+      "githubLink": "https://github.com/dbcodeio/public",
+      "company": "Recut",
+      "tags": ["database", "MySQL", "Postgres", "MongoDB", "SQLite"],
+      "features": [
+        "Query execution",
+        "Schema browsing",
+        "Data visualization",
+        "AI-powered suggestions",
+        "Free tier",
+        "AI chat capabilities",
+        "Advanced snippet management",
+        "Autocomplete",
+        "Chat interface",
+        ""
+      ],
+      "pricing": "Freemium/Paid",
+      "logoUrl": "/logos/DBCode.png",
+      "type": "VSCode Extension",
+      "isOpenSource": false
     }
   ]
 }
